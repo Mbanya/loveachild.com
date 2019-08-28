@@ -12,7 +12,7 @@
                         <div class="col-lg-3 col-md-4 widget sm-margin-30px-bottom">
                             <div class="widget-title alt-font text-extra-small text-extra-dark-gray text-uppercase margin-15px-bottom font-weight-600">contact information</div>
                             {{-- <div class="text-small line-height-24 width-75 sm-width-100 text-medium-gray">301 The Greenhouse, Custard Factory, London, E2 8DY.</div> --}}
-                            <div class="text-small line-height-24 text-medium-gray">Email: <a href="mailto:info@loveachild.org" class="text-medium-gray">info@loveachild.org</a></div>
+                            <div class="text-small line-height-24 text-medium-gray">Email: <a href="mailto:info@loveachild.org" class="text-medium-gray">info@loveachildinitiative.org</a></div>
                             <div class="text-small line-height-24 text-medium-gray">Phone: +254 (722) 123 456 7890</div>
                         </div>
                         <!-- end contact information -->
@@ -46,7 +46,7 @@
                 <div class="border-color-extra-light-gray border-top padding-40px-top sm-padding-30px-top">
                     <div class="row">
                         <!-- start copyright -->
-                        <div class="col-12 text-small text-center text-medium-gray">&COPY; 2019 Love a Child developed by by <a href="mailto:mbanyaw@gmail.com" target="_blank" title="Love a Child" class="text-medium-gray">Mbanya William </a></div>
+                        <div class="col-12 text-small text-center text-medium-gray">&COPY; <?php echo date('Y') ?> Love a Child developed by by <a href="mailto:mbanyaw@gmail.com" target="_blank" title="Love a Child" class="text-medium-gray">Mbanya William </a></div>
                         <!-- end copyright -->
                     </div>
                 </div>

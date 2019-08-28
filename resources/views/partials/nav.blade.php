@@ -17,9 +17,9 @@
                             <ul id="accordion" class="nav navbar-nav no-margin alt-font text-normal" data-in="fadeIn" data-out="fadeOut">
                                 <!-- start menu item -->
                             <li><a href="{{url('/')}}">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#projects">What we do</a></li>
-                                <li><a href="#team">The Team</a></li>
+                                <li><a href="/#about">About</a></li>
+                                <li><a href="/#projects">What we do</a></li>
+                                <li><a href="/#team">The Team</a></li>
                                 <li><a href="{{url('/media')}}">Media</a></li>
                                 <li><a href="{{url('/contact')}}">Contact Us</a></li>
                                 <!-- end menu item -->

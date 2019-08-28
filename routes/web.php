@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('pages.index');
-});
+Route::get('/','PagesController@index')->name('index');
+Route::get('/contact','PagesController@contact')->name('contact');
+Route::post('/contact','PagesController@postContact')->name('postContact');
