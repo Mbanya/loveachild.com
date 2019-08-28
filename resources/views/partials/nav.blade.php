@@ -3,7 +3,10 @@
                 <div class="container-fluid nav-header-container">
                     <!-- start logo -->
                     <div class="col-auto pl-0">
-                        <a href="index.html" title="Love a Child" class="logo"><img src="images/" data-rjs="images/" class="logo-dark" alt="Love a Child"><img src="images/" data-rjs="images/" alt="Love a Child" class="logo-light default"></a>
+                        <a href="" title="Love a Child" class="logo">
+                            <img src="" data-rjs="images/" class="logo-dark" alt="Love a Child">
+                            <img src="" data-rjs="images/" alt="Love a Child" class="logo-light default">
+</a>
                     </div>
                     <!-- end logo -->
                     <div class="col accordion-menu pr-0 pr-md-3">

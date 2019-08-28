@@ -43,6 +43,17 @@
                         <div class="padding-fifteen-all bg-light-gray border-radius-6 lg-padding-seven-all sm-padding-30px-all h-100">
                             <span class="text-extra-dark-gray alt-font text-large font-weight-600 margin-25px-bottom d-block">Ready to get started?</span>
                             <form id="contact-form" action="{{route('postContact')}}" method="post">
+
+                                @foreach ($errors->all() as $error)
+                                    <p class="alert alert-danger">{{ $error }}</p>
+                                @endforeach
+                                @if (session('status'))
+                                    <div class="alert alert-success">
+                                        {{ session('status') }}
+                                    </div>
+                                @endif
+
+                                <input type="hidden" name="_token" value="{!! csrf_token() !!}">
                                 <div>
                                     <div id="success-contact-form" class="mx-0"></div>
                                     <input type="text" name="name" id="name" placeholder="Name*" class="border-radius-4 bg-white medium-input">
@@ -72,8 +83,8 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-12 col-xl-7 col-lg-8 col-md-10 text-center">
-                        <h6 class="alt-font text-extra-dark-gray text-uppercase font-weight-500 width-80 mx-auto margin-35px-bottom lg-width-100 wow fadeInUp">We would love to hear about start your new project?</h6>
-                        <a href="#section-down" class="btn btn-medium btn-rounded btn-deep-pink wow fadeInUp" data-wow-delay="0.2s">Start New Projects</a>
+                        <h6 class="alt-font text-extra-dark-gray text-uppercase font-weight-500 width-80 mx-auto margin-35px-bottom lg-width-100 wow fadeInUp">Do you enjoy volunteer work?</h6>
+                        <a href="#section-down" class="btn btn-medium btn-rounded btn-deep-pink wow fadeInUp" data-wow-delay="0.2s">Volunteer for a Project</a>
                     </div>
                 </div>
             </div>

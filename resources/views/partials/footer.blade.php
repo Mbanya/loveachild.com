@@ -13,7 +13,7 @@
                             <div class="widget-title alt-font text-extra-small text-extra-dark-gray text-uppercase margin-15px-bottom font-weight-600">contact information</div>
                             {{-- <div class="text-small line-height-24 width-75 sm-width-100 text-medium-gray">301 The Greenhouse, Custard Factory, London, E2 8DY.</div> --}}
                             <div class="text-small line-height-24 text-medium-gray">Email: <a href="mailto:info@loveachild.org" class="text-medium-gray">info@loveachildinitiative.org</a></div>
-                            <div class="text-small line-height-24 text-medium-gray">Phone: +254 (722) 123 456 7890</div>
+                            <div class="text-small line-height-24 text-medium-gray">Phone: +254 (725) 120413</div>
                         </div>
                         <!-- end contact information -->
                         <!-- start social media -->
